@@ -57,6 +57,11 @@
   fill: transparent;
 }
 
+.contour {
+  fill: var(--favicon-color);
+  transition: fill linear 0.1s;
+}
+
 /* hover */
 
 .card__icon-button:hover .core {
@@ -83,12 +88,12 @@
 
 /* .like-icon.is-liked */
 
-.like-icon {
+/* .like-icon {
   animation: ease-in var(--animation-time) 0.1s beatend;
-}
+} */
 
 .like-icon.is-liked {
-  animation: ease-in var(--animation-time) 0.1s beat;
+  animation: ease-in var(--animation-time) 0.1s alternate beat;
 }
 
 .like-icon.is-liked .core {
@@ -107,7 +112,7 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: 1 ease-in var(--animation-time) 0.3s sparks;
+  animation: 1 ease-in var(--animation-time) 0.3s alternate sparks;
 }
 
 @keyframes beat {

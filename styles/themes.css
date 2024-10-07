@@ -16,14 +16,7 @@
   --heart-contour: #00CC14;
   --heart-color: #FF0000;
   --favicon-color: #00CC14;
-  /* --underground-color: #000028;
-  --header-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --main-color: #FF0070;
-  --title--color: #FF0070;
-  --display-rec: inline-flex;
-  --decor-size: 25px;
-  --hover-color: rgba(255, 0, 112, 0.40); */
+  --shadows-color: #000000;
 }
 
 :root.theme-light {
@@ -37,19 +30,12 @@
   --heart-contour: #000000;
   --heart-color: #FF0000;
   --favicon-color: #000000;
-  /* --underground-color: #fceff5;
-  --header-color: #FFC2E6;
-  --shadow-color: #FF0070;
-  --main-color: #FF8DCB;
-  --title--color: #353430;
-  --display-rec: none;
-  --decor-size: 25px;
-  --hover-color: rgba(50, 49, 45, 0.40); */
+  --shadows-color: #FFFFFF;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bold-font-variation-settings: 700;
+  --bold-font-variation-settings: 700;
   --normal-font-variation-settings: 400;
   --page-background-color: #FFFFFF;
   --text-color: #000000;
@@ -59,5 +45,6 @@
   --heart-contour: #000000;
   --heart-color: #FF0000;
   --favicon-color: #000000;
+  --shadows-color: #FFFFFF;
   }
 }
