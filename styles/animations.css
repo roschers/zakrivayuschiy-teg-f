@@ -30,9 +30,12 @@
 
 .card__icon-button {
   padding: 0;
-  block-size: 35px;
+  block-size: 38px;
   background-color: inherit;
-  border: none;
+  border: 2px solid transparent;
+  transition: border-color var(--animation-time) ease;
+  cursor: pointer;
+  appearance: none;
 }
 
 .card__icon-button:focus {
@@ -40,7 +43,7 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid var(--text-color);
+  border-color: 2px solid var(--text-color);
 }
 
 .main-body {
